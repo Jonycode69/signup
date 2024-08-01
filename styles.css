@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rule {
+    height: 1px;
+    background: #606770;
+    margin-bottom: 10px;
+}
+.logo {
+    text-align: center;
+    padding: 5px;
+}
+.fb_img {
+    height: 100px;
+}
+.container {
+    width: 400px;
+    margin: auto;
+    padding:  20px 10px;
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow:  10px 10px 10px -10px;
+    height: auto;
+}
+.text {
+    text-align: center;
+}
+.text>p {
+    color: #606770;
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 24px;
+}
+.input_short {
+    border: #ccd0d5 1px solid;
+    width: 172px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 11px;
+   margin-right: 12px;
+}
+
+.input_long {
+    width: 375px;
+    margin-top: 10px;
+    padding: 11px;
+    border: #ccd0d5 1px solid;
+    border-radius: 4px;
+}
+
+.date_of_birth>select, option {
+    line-height: 30px;
+    padding: 0 4px;
+    padding-right: 70px;
+    height: 36px;
+    color: #1c1e21;
+    border: #ccd0d5 solid 1px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.date_of_birth>p  {
+   font-weight: normal;
+   font-size: 11px;
+   margin-top: 10px;
+   color: #606770;
+}
+
+span>label {
+    font-size: 12px;
+    background-color: #fff;
+    height: 36px;
+    color: #1c1e21;
+    border: #ccd0d5 solid 1px;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 28px 0 10px;
+    vertical-align: middle;
+    position: relative;
+    width: 123px;
+}
+span>label>input {
+    margin-left: 20px;
+    
+
+}
+
+.gender>p {
+    color: #606770;
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: normal;
+}
+.learn-more>p {
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #606770;
+}
+.learn-more>p>a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.learn-more>p>a:hover {
+    text-decoration: underline;
+}
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.submit-button {
+    background: rgb(1, 184, 1);
+    border: 0;
+    text-align: center;
+    padding: 12px 60px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sign-up>p>a {
+    color: rgb(71, 71, 249);
+}
+.sign-up>p{
+margin-bottom: 10px;
+}
