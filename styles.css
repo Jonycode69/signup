@@ -18,7 +18,7 @@ body {
     padding: 5px;
 }
 .fb_img {
-    height: 100px;
+    width: 50%;
 }
 .container {
     width: 400px;
@@ -38,17 +38,27 @@ body {
     font-size: 15px;
     line-height: 24px;
 }
-.input_short {
+.input_short_container {
+ width: 100%;
+ display: flex;
+ gap: 10px;
+}
+.input_short1 {
     border: #ccd0d5 1px solid;
-    width: 172px;
     border-radius: 4px;
     margin-top: 10px;
     padding: 11px;
-   margin-right: 12px;
+    width: 50%;
 }
-
+.input_short2 {
+    border: #ccd0d5 1px solid;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 11px;
+    width: 50%;
+}
 .input_long {
-    width: 375px;
+    width: 100%;
     margin-top: 10px;
     padding: 11px;
     border: #ccd0d5 1px solid;
@@ -72,7 +82,7 @@ body {
    color: #606770;
 }
 
-span>label {
+label {
     font-size: 12px;
     background-color: #fff;
     height: 36px;
@@ -80,17 +90,18 @@ span>label {
     border: #ccd0d5 solid 1px;
     border-radius: 4px;
     margin-top: 10px;
-    display: inline-block;
-    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 28px 0 10px;
-    vertical-align: middle;
-    position: relative;
     width: 123px;
+    width: 33%;
 }
-span>label>input {
-    margin-left: 20px;
-    
-
+.gender_opt {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
 }
 
 .gender>p {
