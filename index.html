@@ -19,8 +19,10 @@
             <p>It's quick and easy.</p>
             <div class="rule"></div>
         <div class="input_sec">
-            <input type="text" placeholder="First name" name="first name" class="input_short" required>
-            <input type="text" placeholder="Surname" name="Surname" class="input_short" required>
+            <div class="input_short_container">
+            <input type="text" placeholder="First name" name="first name" class="input_short1" required>
+            <input type="text" placeholder="Surname" name="Surname" class="input_short2" required>
+        </div>
             <input type="email" placeholder="Mobile number or email address" name="email address" class="input_long" required>
             <input type="password" placeholder="New password" class="input_long" required>
         </div>
@@ -151,18 +153,20 @@
     </section>
     <section class="gender" id="gender" aria-required="true">
         <p>Gender</p>
-        <span>
+        <div class="gender_opt">
+        
             <label for="female">Female
             <input type="radio" name="sex" id="female"></label>
-        </span>
-        <span>
+        
+        
             <label for="male">Male
             <input type="radio" name="sex" id="male"></label>
-        </span>
-        <span>
+        
+        
             <label for="custom">Custom
             <input type="radio" name="sex" id="custom"></label>
-        </span>
+        
+    </div>
     </section>
     <section class="learn-more" id="learn-more">
         <p>People who use our service may have uploaded your contact information to Facebook. <a href="">Learn more.</a></p>
